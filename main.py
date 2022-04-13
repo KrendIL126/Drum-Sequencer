@@ -303,7 +303,7 @@ while run:
     draw_texts()
     draw_buttons()
     draw_tiles()
-    draw_markup(8)
+    draw_markup()
 
     # draw line
     win.blit(line.surf, line.rect)
